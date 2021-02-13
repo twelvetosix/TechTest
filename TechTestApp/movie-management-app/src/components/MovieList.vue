@@ -16,7 +16,6 @@
         <!-- MODAL -->
         <b-modal id="formModal" v-model="modalShow" :hide-header="true" :hide-footer="true" :no-close-on-backdrop="true">
             <b-container fluid>
-                {{$v.movie.name}}
                 <form @submit.prevent="submit">
                     <div class="form-group mb-3">
                         <label for="nameInput" class="form-label">Name</label>
